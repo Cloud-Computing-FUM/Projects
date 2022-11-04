@@ -1,8 +1,8 @@
-# Dockerizing-Composition
+
 
 با سلام خدمت دانشجویان گرامی. پروژه به صورت فاز بندی شده شامل موارد ذیل می باشد:
 
-### Phase 1:
+### Phase 1 (Dockerizing-Composition):
   ۰. نصب Docker , Docker Compose
   ۱. انتخاب یک image از وب سرور های موجود نظیر apache , nginx ,...
   
@@ -14,11 +14,11 @@
   
   ۵. در فایل docker-compose.yml با استفاده از Dockerfile مورد ۳ عملیات  build انحام شود و هر دو image با یک دیگر اجرا شوند.
   
-### Phase 2:
+### Phase 2 (Orchestrator):
 
 از سوی TA ها سرور در اختیار دانشجویان قرار می گیرد تا روی آن orchestrator راه اندازی کنید. پیشنهاد ما minikube است، زیرا راه اندازی آن از کلاستر کوبرنتیز راحت تر است.
 
-### Phase 3:
+### Phase 3 (Migration):
 
 مهاجرت از  Docker Compose که برای محیط develop مناسب است به محیط production یعنی فایل های کانفیگ kubernetes
 در این فاز باید موارد زیر رعایت شود:
@@ -46,7 +46,7 @@ Ip
 منابع استفاده شده محدود شود.
 ```
 
-### Phase 4:
+### Phase 4 (Monitoring):
 
 راه اندازی Prometheus و Grafana جهت مانیتور کردن pod ها.
 
